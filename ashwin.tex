@@ -1,0 +1,350 @@
+\documentclass[a4paper,10pt]{report}
+\usepackage{graphicx}
+\usepackage{graphics}
+% \usepackage{helvetica}   % uses new century schoolbook postscript font  
+\usepackage{url}
+% \usepackage{helvetica}
+\usepackage{array}
+\usepackage{color}
+\usepackage{palatino}
+\usepackage[colorlinks]{hyperref}
+\definecolor{mygrey}{gray}{0.85}
+\usepackage[top=0.75in, bottom=0.75in, left=0.75in, right=0.75in]{geometry}
+\hypersetup{urlcolor=blue}
+
+\setlength{\topmargin}{-0.45in}  % start text higher on the page
+\setlength{\textheight}{10.2in} % increase text height to fit resume on 1 page
+\renewcommand{\baselinestretch}{1}
+\newcommand{\HRule}{\rule{\linewidth}{0.4mm}\\[-0.7cm]}
+\newcommand{\horline}{\rule{\linewidth}{0.3mm} \vspace{-0.1cm}}
+\newcommand{\isep}{0 pt}
+\newcommand{\csep}{-3 pt}
+\newcommand{\itsep}{-4 pt}
+\newcommand{\lsep}{-0.4cm}
+\newcommand{\psep}{-0.4cm}
+\newcommand{\tsep}{5pt}
+\newcommand{\tsepsmall}{5pt}
+\newsavebox{\mysquare}
+\savebox{\mysquare}{\textcolor{black}{\rule{1in}{1in}}}
+
+\renewcommand{\labelitemii}{$^{_{_{\scalebox{0.045}{\usebox{\mysquare}}}}}$}
+%\renewcommand{\labelitemii}{$\circ$}
+\pagestyle{empty}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\hspace{-0.7cm}  \normalsize \colorbox{mygrey}{\begin{minipage}{\textwidth}{ {\textbf{#1}  \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{\hspace{-0.6cm}
+\begin{tabular*}{1.027\textwidth}{l@{\extracolsep{\fill}}r}
+	\textsc{{{#1}}} & \textsc{\textit{#3}} \\
+	\multicolumn{2}{l}{\textit{#2}} %& \hspace{0.5cm}\\
+\end{tabular*}\vspace{-8pt}}
+
+%---------------------------------------------------\HRule--------
+
+\begin{document}
+
+\thispagestyle{empty}
+
+%\begin{figure}
+%\begin{minipage}{0.2\linewidth}
+%\centering
+%\includegraphics[scale=0.88]{logosmall.png}%
+%\end{minipage}
+%\begin{minipage}[b]{0.8\linewidth}
+%\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%\textsc{{\textbf{Yash Deshpande}}} & \textbf{Present Address}\\
+%Junior Undergraduate & Hostel-3, Room No. 240\\
+%Electrical Engineering & IIT Bombay, Powai\\
+%Indian Institute of Technology, Bombay & Mumbai - 400076\\
+%Email: \textbf{yash.deshpande AT iitb.ac.in} & Maharashtra, India\\
+%\hspace{1.22cm}\textbf{ykdeshpande AT ee.iitb.ac.in} & +91 9970831532
+%%Webpage: \textbf{\url{www.ee.iitb.ac.in/student/~ykdeshpande}} & +91 9970831532\\
+%\end{tabular*}
+%\end{minipage}
+%\HRule
+%\end{figure}
+
+%\resheading{ACADEMIC DETAILS}\\[\lsep]
+%\begin{itemize}\itemsep \isep
+%\item[] Department : Electrical Engineering
+%\item[] CPI (or CGPA) : 9.36 out of 10
+%\item[] Department Rank : 5 out of 40\\[\lsep]
+%\end{itemize}
+% \resheading{EDUCATION}
+% \begin{tabular}{2}
+% %B.Tech in Electrical Engineering& 9.36
+% \end{tabular}
+\vspace*{2.65cm}
+
+\resheading{SCHOLASTIC ACHIEVEMENTS}\\[\lsep]
+\begin{list}{\labelitemi}{\itemsep=\csep \leftmargin=1em \topsep=\tsep}
+		\item Awarded \textbf{Institute Academic Reward} (2011) for ranking \textbf{2nd in the department} (in a batch of 89)
+		\item Pursuing \textbf{Honors in CSE} and \textbf{Minors in Electrical Engineering} 
+		\item Awarded \textbf{Gold Medal} in \textbf{Indian National Physics Olympiad 2010} (\textbf{top 35} from all over India)
+		\item \textbf{All India Rank 81} in IIT-Joint Entrance Examination (2010) from around 450,000 entrants 				
+		\item Awarded \textbf{National Talent Search Scholarship}(Top 1000 in India)
+		and secured \textbf{All India Rank 3} in National Science Olympiad (2008), \textbf{4} in National Cyber Olympiad(2010), \textbf{7} in International Mathematics Olympiad(2010)
+				
+		\item Selected for the prestigious \textbf{Kishore Vaigyanik Protsahan Yojana (KVPY) Fellowship 2010} 
+		\item Certified \textbf{C++ programmer} for over \textbf{11 years} (National Institute of Information Technology)\\[\lsep]
+\end{list}
+
+%\resheading{RESEARCH INTERESTS}\\[\lsep]
+%\begin{itemize}\itemsep \csep
+%\item Information and Coding theory
+%\item Graph theory and Algorithms
+%%\item Image, Audio processing \\[\psep]
+%\end{itemize}
+
+%\resheading{PUBLICATION}\\[\lsep]
+%\begin{itemize}\itemsep \isep
+%\item Sarkar A., \textbf{Abhishek}, Yajnik U. A., \textsl{``PeV scale Left-Right symmetry and baryon asymmetry of the Universe''} Nuclear Physics B, Volume 800, Issue 1-2, p. 253-269\\[\lsep]
+%\end{itemize}
+%
+%\resheading{CONFERENCES}\\[\lsep]
+%\begin{itemize}\itemsep \isep
+%\item[] \ressubheading{Conference - Micro Aerial Vehicle (MAV) 08}{}{}{March 2008}\\[-0.6cm]
+%\begin{itemize}
+%\item Selected as a delegate to represent IIT Bombay in \textsl{1st US-Asian Demonstration and Assessment of Micro-Aerial and Unmanned Ground Vehicle Technology, Agra, India}, organized jointly by \textsl{National Aeronautics Laboratory, India} and \textsl{US - Department of Defence}\\[\lsep]
+%\end{itemize}
+%\end{itemize}
+
+%\resheading{HONORS AND AWARDS}\\[\lsep]
+%\begin{itemize}\itemsep \isep
+%\item \textbf{``Inlaks Award of Excellence''} holder for my batch. The Inlaks Award is given to one student in a batch for excellent academic standing, along with successful pursuit of a chosen extracurricular activity.
+%\item \textbf{``Organisational Special Mention''} from my hostel for work as the computer secretary of the hostel.
+%\item \textbf{``Proficiency in Computers"} in college for best cumulative performance over two years in Informatics Practices (2004)
+%\item \textbf{``Merit Card in Academics"} in college (2004) \\[\lsep]
+%\end{itemize}
+
+
+\resheading{PROJECTS AND INTERNSHIPS}\\[\lsep]
+\begin{list}{\labelitemi}{\itemsep=\itsep \leftmargin=1em \topsep=\tsep}
+\item[] \ressubheading{Student Intern, Microsoft Research Redmond}{\small Application of Neural Networks --Brian Guenter}{[Summer 2013]}
+\begin{list}{\labelitemii}{\itemsep=\isep \leftmargin=1em \topsep=\tsep}
+		%\item Studied Neural Networks Literature and concepts like overfitting and generalization\textbf{add more}
+		\item Designed and implemented \textbf{deep neural networks} of increasing complexity
+    \item Used \textbf{novel optimizations} to boost learning and \textbf{visualizations} for hyperparameter tuning
+    \item Produced \textbf{results which generalize better} compared to contemporary algorithms
+\end{list} 
+
+\item[] \ressubheading{Visiting Scientist, Institute of Science and Technology Austria}{\small How can we use edit distances of unrealizable specifications to make them realizable? -- Prof. Krishnendu Chatterjee}{[Summer 2012]}
+\begin{list}{\labelitemii}{\itemsep=\isep \leftmargin=1em \topsep=\tsepsmall}
+		\item Extensive \textbf{literature survey} of Unrealizable Specifications in Formal Verification
+                \item \textbf{Devised methods} to form deterministic Edit Automata from DFA's, Buchi and Parity automata 
+		\item Proved \textbf{complexity bounds} and \textbf{examples} indicating superiority over existing methods 
+\end{list} 
+\item[] \ressubheading{Selective Classification (B.Tech. Project)}{\small Can we gurantee accuracy of classification by selecting a subset of data? --Prof. Sunita Sarawagi}{[July 2013 till date]}
+\begin{list}{\labelitemii}{\itemsep=\isep \leftmargin=1em  \topsep=\tsep }
+\item Aim to design and test a classifier using  \textbf{structural learning and convex optimization}
+\item Investigate the theoretical relation between prediction accuracy and training parameters
+\end{list} 
+
+%\item[] \ressubheading{Wireless Multi-point Relay Simulator}{\small Can wifi on mobile devices be used to create a relay based mesh network?}{[Autumn 2011]}
+%\begin{list}{\labelitemii}{\itemsep=\isep \leftmargin=1em \topsep=\tsepsmall}
+%\item Conceptualized and implemented \textbf{additional %protocols}, super-nodes and trunk-lines for \textbf{scalability}
+%\item  \textbf{Simulated packet transmission} over many layers on %a randomly generated environment
+%\end{list} 
+%\item[] \ressubheading{Research Intern, IIT Bombay}{\small Lazy Pointer Analysis --Prof. Uday Khedker }{[ Summer 2011]}
+%\begin{list}{\labelitemii}{\itemsep=\isep \leftmargin=1em \topsep=\tsepsmall}
+%                \item Studied \textbf{Liveness based may-must pointer analysis} to understand ongoing research
+%		\item Developed a \textbf{prototype implementation} of a scheme for Lazy Pointer Analysis 
+
+%\end{list} 
+\item[] \ressubheading{Quantum computer simulator}{\small An educational cum research tool for development and testing of quantum algorithms }{[Spring 2011]}
+\begin{list}{\labelitemii}{\itemsep=\isep  \leftmargin=1em  \topsep=\tsepsmall}
+
+\item \textbf{Developed algorithms} to simulate quantum gates on registers by manipulation of binary trees
+\item Created a \textbf{macro based language layer} to feed functions directly in scientific symbols
+\item Implemented \textbf{standard quantum algorithms} to show applicability and prove accuracy
+
+\end{list} 
+
+%\item[] \ressubheading{Raaga Recognition}{IIT Bombay}{Guide: Prof. P. Rao}{[Sep 2009 till date]}
+%\begin{itemize}\itemsep \isep
+%\item Developing an algorithm for \textbf{raaga identification} using the concept of musical phrases. A \textit{raaga} is an abstract melodic structure, which forms the basis of Indian classical music.
+%\item Analysing real \textit{tabla} audio to improve the quality of electronic \textit{tabla} accompaniment devices.
+%\end{itemize}
+
+%\item[] \ressubheading{Wireless Routing}{\small An experiment in routing for dynamic wireless networks}{[Sep 2009 -Nov 2009]}
+%\begin{list}{\labelitemii}{\itemsep=\isep \leftmargin=1em \topsep=\tsep }
+%\item Implemented the \textbf{Dynamic Source Routing Protocol} for mobile ad-hoc networks using the Twisted pythonic framework for network programming.
+%\item Tested its performance and robustness on symmetric-link networks of small girth using randomized data flows and a \textbf{dummy chat application}.
+%\end{list}
+%\newpage
+%
+%\item[] \ressubheading{Automated Learning}{\small Can machines learn? A simple game demonstration}{[Aug 2007 - Nov 2007]}
+%\begin{list}{\labelitemii}{\itemsep=\isep  \leftmargin=1em  \topsep=\tsep }
+%\item Implemented, in C++, a simple 2-player game, in which the computer learns the winning strategy while playing a human opponent, exemplifying \textbf{learning through experience}.
+%\item Developed a \textbf{text-based} version, and later a \textbf{graphic version} using the EzWindows API.
+%\end{list}
+%%
+%\item[] \ressubheading{Digital Telephony}{IIT Bombay}{Guide: Prof. S. Patkar}{[Jan 2009 - April 2009]}
+%\begin{itemize}\itemsep \isep
+%\item Implemented, in hardware, a \textbf{synchronous digital voice transmission} system on a breadboard using standard gate-level integrated circuits.\\[\psep]
+%\end{itemize}
+
+
+
+%\resheading{POSITIONS OF RESPONSIBILITY}\\[\lsep]
+%\begin{itemize}
+%\item[] \ressubheading{}{}{}{Jan 2008 - Feb 2008}\\[-0.6cm]
+%\begin{itemize}\itemsep \isep
+%\item Led a team of 30 student volunteers to organize \textbf{State level Swimming Competition} which saw a participation of over \textbf{350 swimmers} from various clubs of Maharashtra, India.\\[\psep]
+%\end{itemize}
+%
+%\item[] \ressubheading{Organizing Committee, 43rd Inter IIT Sports Meet 2007}{}{}{Aug 2007 - Dec 2007}\\[-0.6cm]
+%\begin{itemize}\itemsep \isep
+%\item Organized 43rd Inter IIT Aquatics and Sports Meet 2007 with a team of 18 sport secretaries, contributed to \textbf{all the departments} in varying strengths (especially publicity and hospitality).\\[\psep]
+%\end{itemize}
+%
+%\item[] \ressubheading{Institute Aquatics Secretary}{}{}{Apr 2007 - Mar 2008}\\[-0.6cm]
+%\begin{itemize}\itemsep \isep
+%\item Conducted numerous tournaments in the Institute to promote aquatics activities.\\[\psep]
+%\end{itemize}
+%\end{itemize}
+
+
+%\resheading{RELEVANT COURSES COVERED} \\(A : Audited)%\\[\lsep]
+%\begin{itemize}\itemsep \csep
+%\item Probability and Stochastic Processes 
+%\item Communication Systems 
+%\item Computer Networks 
+%\item Data Structures and Algorithms
+%\item Discrete Structures
+%\item Mobile Computing$^{A}$
+%\item Signals and Systems
+%\item Network Theory
+%\item Linear Algebra and Ordinary Differential Equations
+%\item Complex Analysis and Partial Differential Equations
+%\item Calculus \\[\psep]
+%\end{itemize}
+
+\resheading{POSITIONS OF RESPONSIBILITY}\\[\lsep]
+\begin{list}{\labelitemi}{\itemsep=\itsep \leftmargin=1em \topsep=\tsep}
+\item[] \ressubheading{Manager, Technovation: Institute Innovation Program}{}{[July 2012 till date]}\\[-0.6cm]
+\begin{list}{\labelitemii}{\itemsep=\isep  \leftmargin=1em \topsep=\tsepsmall}
+\item Led a new program, designed a constitution, indentified leaders with ideas and \textbf{guided 8 teams}
+\item \textbf{Novel monitoring and feedback} ensured continued participation of over 80 students
+\item Awarded \textbf{Institute Organisational Award} for innovative practices and motivating leadership  
+%\item Selected among \textbf{over 200 applicants} on the basis of balanced academic achievement, extracurricular activities and mentoring skills by the Dean (Student Affairs) office.
+
+\end{list}
+\item[] \ressubheading{Other Positions }{}{[July 2013 till date]}\\[-0.6cm]
+\begin{list}{\labelitemii}{\itemsep=\isep  \leftmargin=1em \topsep=\tsepsmall}
+\item \textbf{Institute Student Mentor(2013)} -- Mentoring \textbf{12 freshmen} towards balanced development
+\item \textbf{Teaching Assistant }Taught 3 different courses to students over 4 semesters
+\item \textbf{Hostel Web Sectretary (2011)} -- Awarded \textbf{Hostel Organisational Color} for using novel web technologies
+\end{list}
+%\item[] \ressubheading{System Administrator, Hostel 3}{}{[Aug 2009 - April 2010]}\\[-0.6cm]
+%\begin{list}{\labelitemii}{\itemsep=\isep  \leftmargin=1em }
+%\item Elected the Computer Secretary of the hostel for 2008-09 and subsequently was nominated as the System Administrator for 2009-10.
+%\item Ensured the \textbf{timely maintenance} and oversee of the hostel network and computing facility.
+%\item Conducted workshops in \LaTeX , \textbf{Adobe Photoshop} and Linux for hostel inmates.
+%\item Awarded the \textbf{Organizational Special Mention} for my contribution to the hostel.
+%
+%\end{list}
+\end{list}
+
+\resheading{EXTRACURRICULAR ACTIVITIES}\\[\lsep]
+\begin{list}{\labelitemii}{\itemsep=\isep  \leftmargin=1em  \topsep=\tsep}
+\item \textbf{Winner(2012) and Runner Up (2013) at Yahoo! HackU} for making DriveStack and Time Flyer
+\item \textbf{Finalist} in IITB track  in \textbf{Eureka 2012} (B-plan competition) for viability of Peapod, an affordable computer 
+
+\item Awarded \textbf{Hostel Technical Color twice} for contribution to technical activities in hostel (2011, 2012)
+\item Completed Basic \textbf{Japanese }course (International Relations Office, IIT Bombay) 
+\item Stood 1st in homepage making, group dance and foot painting competitions amongst freshmen
+\end{list}
+
+
+
+%\item[] \ressubheading{Spicmacay}{}{}\\[-0.6cm]
+%\begin{list}{\labelitemii}{\itemsep=\isep  \leftmargin=1em  \topsep=\tsep}
+%\item Was a volunteer for \textbf{SPICMACAY} (the Society for Promotion of Indian Classical Music and Culture Amongst Youth) and a delegate to their \textbf{National Convention} in Kohima, Nagaland (2008).
+%\item Coordinated, as a member of a team of 6, over \textbf{25} classical music and dance concerts in \textbf{over 15} schools and colleges throughout Mumbai, in the academic year 2008-2009. 
+%\end{list}
+
+
+
+
+%\item Secured the \textbf{1$^{\mathbf{st}}$} position in the Science Exhibition at Prodigy 03, 04 and the Centrafest 04 festivals.
+%\item First runner-up thrice at the \textbf{Just-a-Minute (JAM)} competitions at the interschool level and at \textbf{Spelling Bee 2003} at the city level.\\[\psep]
+
+
+
+%\item[] \ressubheading{Organisational Work}{}{}{}\\[-0.6cm]
+%\begin{itemize}\itemsep \isep
+%\item Organised, as a volunteer for SPICMACAY, over \textbf{25} classical music and dance concerts in \textbf{over 15} schools and colleges throughout Mumbai, in the academic year 2008-2009. 
+%\item As a member of the \textbf{Special Academic Task Force}, instituted for academic reform at the undergraduate level, I explored freshman laboratory reforms. Also helped conceive of and organize a \textbf{Department Research Seminar} to expose freshmen to current research work in the department.
+%\item Elected \textbf{Computer Secretary} for my hostel for the academic year 2008-2009. Was awarded the \textbf{Organisational Special Mention} from the hostel for the same. 
+%\item Was nominated \textbf{System Administrator} for my hostel for the academic year 2009-2010 \\[\psep]
+%\end{itemize}
+\end{list}
+
+
+%\resheading{TECHNICAL SKILLS}\\[\lsep]
+%\begin{itemize} \itemsep \isep
+%\item Programming languages: Python, C++, C
+%\item Software packages: MATLAB{\textregistered}, ns-3 (Network Simulator 3), Twisted
+%\item Document Preparation: HTML, \LaTeXe
+%\item Operating systems: GNU/Linux, Windows XP, OS X
+%\end{itemize}
+
+
+
+%\resheading{REFERENCES}\\[0.3cm]
+% \begin{tabular}{lll}
+% \textsc{Prof. K. Sudhakar}&\textsc{Prof. Jan Mark Geusebroek}&\textsc{Prof. Hemendra Arya}\\
+% Aerospace Engineering Department,&Intelligent Systems Lab Amsterdam,&Aerospace Engineering Department,\\
+% IIT Bombay, Powai&University of AmsteRe: Chat with Abhinav Mittalrdam,&IIT Bombay, Powai\\
+% Mumbai, Maharashtra,&1098 SJ Amsterdam, &Mumbai, Maharashtra,\\
+% India - 400076&The Netherlands&India - 400076\\
+% Tel: +9122-25767840&Tel: +3120-5257552&Tel: +9122-25767118\\
+% Email: sudhakar@aero.iitb.ac.in&Email: mark@science.uva.nl&Email: arya@aero.iitb.ac.in\\
+% \end{tabular}
+% \begin{tabular}{lll}
+% \textsc{Prof. S. Patkar}&\textsc{Prof. P. Rao}&\textsc{Prof. U. B. Desai}\\
+% Department of Electrical Engineering,&Department of Electrical Engineering,&Director\\
+% IIT Bombay,&IIT Bombay,&IIT Hyderabad\\
+% Mumbai, Maharashtra&Mumbai, Maharashtra,&Yeddumailaram, Andhra Pradesh\\
+% India - 400076&India - 400076,&India - 502205\\
+% Email: patkar@ee.iitb.ac.in&Email: pr@ee.iitb.ac.in&Email: ubdesai@iith.ac.in
+% \end{tabular}
+
+% \textsc{Prof. S. Patkar}\\
+% Department of Electrical Engineering,\\
+% IIT Bombay, Powai\\
+% Mumbai, Maharashtra,\\
+% India - 400076\\
+% Tel: +9122-2576\\
+% Email: patkar@ee.iitb.ac.in\\[0.4cm]
+% \textsc{Prof. Preeti Rao}\\
+% Department of Electrical Engineering,\\
+% IIT Bombay, Powai\\
+% Mumbai, Maharashtra\\
+% India - 400076
+% Email: pr@ee.iitb.ac.in\\[0.4cm]
+% \textsc{Prof. U. B Desai}\\
+% Director,\\
+% IIT Hyderabad\\
+% Yeddumailaram, Andhra Pradesh,\\
+% India - 502205\\
+% Email: ubdesai@iith.ac.in\\
+
+\end{document}
+%\begin{list}{\labelitemi}{\leftmargin=1em , \itemsep=\isep , \topsep=\tsep}
+%\item \textbf{Proved the existence} of linear codes of optimal rate satisfying `anytime reliability' over the binary symmetric channel using \textbf{information-theoretic} arguments.
+%\item Generalized the above arguments to demonstrate a \textbf{simple trade-off} between sparsity and reliability achieved by the code. Sparsity yields easier decoding and reliability is a parameter of performance.
+%\item Investigated the performance, theoretically and through simulations, of sub-optimal but tractable decoding strategies like \textbf{bit-flipping and linear programming} for certain code constructions of interest.
+%\end{list} 
+
+
+
+
+
+
+
+\item Taught a batch of \textbf{40 students} twice in an introductory \textbf{physics} course (Autumn, Spring 2012)
+\item Guided in students  \textbf{Computer Networks} (Autumn 2013) and \textbf{CS101} (Autumn 2011)

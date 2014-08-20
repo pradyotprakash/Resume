@@ -1,0 +1,185 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.75in, bottom=0.75in, left=0.55in, right=0.85in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+
+\fontfamily{SansSerif}
+\selectfont
+
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.1cm]
+
+\vspace{50mm}
+
+\resheading{\textbf{SCHOLASTIC ACHIEVEMENTS} }\\[\lsep]
+\begin{itemize}
+\itemsep 0em
+\item  Ranked {\bf 9 out of 96} in the department
+\item  Secured {\bf All India Rank 55} in {\bf IIT JEE (Advanced)} 2013 out of {\bf 1.5 lakh} candidates
+\item  Secured {\bf All India Rank 16} in {\bf IIT JEE (Main)} 2013 out of {\bf 13 lakh} candidates
+\item  Awarded {\bf AP} grade in {\bf Calculus} and {\bf Differential Equations} 
+\item  Awarded {\bf Gold Medal } in {\bf Indian National Physics Olympiad 2013 }({\bf top 35 } from all over India)
+\item  Attended {\bf Vijyoshi camp} in 2012 organised by {\bf IISc} (Indian Institute of Sciences)
+\item  Qualified for {\bf INMO} (Indian National Mathematical Olympiad) 2013
+\item  Secured {\bf All India Rank 8} in {\bf NSTSE} 2011 conducted by Unified Council
+\item  {\bf National top 300} in National Standard Examination in Physics and Astronomy {\bf (NSEP and NSEA)}
+\item  Pursuing a {\bf Minor} in {\bf Applied Statistics and Informatics}
+\end{itemize}
+
+\resheading{\textbf{SCHOLARSHIPS}}
+\begin{itemize}
+\itemsep 0em
+ \item Offered {\bf INSPIRE} Scholarship for being in top 1\% of Maharashtra HSC Examination
+ \item Awarded the {\bf KVPY Fellowship} for the period 2012-13
+ \item Awarded Scholarship from {\bf St. Thomas School, Ranchi} for being the {\bf City Topper} and {\bf Third State Topper} in {\bf ICSE 2011}
+\end{itemize}
+
+\resheading{\textbf{PROJECTS}}
+\begin{itemize}
+ \itemsep 0em
+ \item {\bf Chess Playing Bot} \hfill {(June - July 2014)} \\
+ \hspace*{5mm}   Mentor: MVC Deepak
+ \begin{itemize}
+  \itemsep 0em
+  \item Created a {\bf mechanical framework} to move the chess pieces across the board {\bf automatically}
+  \item Implemented the {\bf Mini-Max and Alpha-Beta Pruning} algorithms to design the chess engine's AI
+  \item Used {\bf Stepper and Servo Motors} to control the mechanical parts
+  \item Interfacing of all the components done on {\bf Beaglebone }
+ \end{itemize}
+ 
+ \item {\bf Tetris} \hfill {(Jan 2014)} \\
+ \hspace*{5mm}   Guide: Prof. Rushikesh K Joshi
+ \begin{itemize}
+  \itemsep 0em
+  \item Developed the popular game of {\bf Tetris} using the {\bf FLTK} Library of {\bf C++}
+  \item Implemented {\bf Event Handling} and {\bf Time based Randomization} for generating falling blocks 
+ \end{itemize}
+ 
+ \item {\bf Physics Simulation Engine} \hfill {(Oct - Nov 2013)} \\
+ \hspace*{5mm}   Guide: Prof. Supratim Biswas
+ \begin{itemize}
+  \itemsep 0em
+  \item Developed an {\bf Electromagnetic Simulator} for charged particles using {\bf Simplecpp} developed by Prof. Abhiram Ranade (CSE, IITB)
+  \item Accurately {\bf illustrated} the motion of charged particles under {\bf external as well as their own Electromagnetic Forces}
+  \item {\bf Extendable} to any force with {\bf Inverse Law Behaviour}
+ \end{itemize}
+\end{itemize}
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}
+  \itemsep 0em
+  \item \textbf{Languages} : C, C++, Python, Prolog, Bash, OpenCV C++ Library 
+  \item \textbf{Web Development} : HTML, CSS, JavaScript, PHP, MySQL
+  \item \textbf{Softwares} : Eclipse, \LaTeX
+  \item \textbf{Electronics} : Arduino, Beaglebone
+\end{itemize} 
+
+\resheading{\textbf{COURSES UNDERTAKEN} } \\
+  \begin{centering}
+  \setlength{\tabcolsep}{1em}
+  \begin{tabular}{l l}
+    \hspace*{1cm} $\bullet$ Computer Programming and Utilization & $ \bullet $ Discrete Structures* \\
+    \hspace*{1cm} $\bullet$ Calculus & $\bullet$ Data Structures and Algorithms + Lab* \\
+    \hspace*{1cm} $\bullet$ Introduction to Electrical and Electronics Circuits* & $\bullet$ Modern Physics  \\
+    \hspace*{1cm} $\bullet$ Abstractions and Paradigms + Lab & $\bullet$ Linear Algebra  \\
+    \hspace*{1cm} $\bullet$ Data Analysis and Interpretation* & $\bullet$ Differential Equations  \\
+    \hspace*{1cm} $\bullet$ Software Systems Lab* & $\bullet$ Biology  \\
+    \hspace*{1cm} $\bullet$ Introduction to Probablility Theory* & $\bullet$ Basics of Electricity and Magnetism \\
+    \hspace*{1cm} $\bullet$ Quantum Physics and application & $\bullet$ Chemistry \\
+  \end{tabular}
+  \end{centering}
+
+\resheading{\textbf{POSITIONS OF RESPONSIBILITY} }\\[\lsep]
+\begin{itemize}\itemsep 0em
+\item {\bf Teaching Assistant} \\
+\hspace*{5mm} MA105 for Prof. Ravi Raghunathan
+\begin{itemize}
+\item Entrusted with training 42 students and their evaluation
+\end{itemize}
+
+\item {\bf Convener}  \\
+\hspace*{5mm}{\bf Electronics Club}
+\begin{itemize}
+\itemsep 0em
+\item Managing and participating in various club realted activities in the institute
+\item System administrator for the club website
+\item Acted as a Super Mentor for 5 teams, having 4 members each, for freshman competition, XLR8
+\end{itemize}
+
+\item {\bf Web Secretary}  \\
+\hspace*{5mm} Computer Science and Engineering Association
+\begin{itemize}
+\itemsep 0em
+\item Tasked with maintaining and updating the CSEA website
+\item Involved in planning and executing other events of the association
+\end{itemize}
+
+\item {\bf Coordinator}  \\
+\hspace*{5mm} Media, E-Cell
+\begin{itemize}
+\itemsep 0em
+\item Responsible for creating and publishing articles for E-Cell's Magazine, EnSpace
+\item Also involved in bringing dealing with sponsors for the magazine
+\end{itemize}
+
+\end{itemize}
+
+\resheading{\textbf{INTEREST AND HOBBIES} }\\[\lsep]
+\begin{itemize}
+\itemsep 0em
+\item Image Processing
+\item Cryptography and its Applications
+\item Security and Encryption
+\item Algorithms
+\item Competitive Coding
+\item Robotics and Electronics : One of the core members of Parinat, IIT Bombay's Humanoid Project
+\item Journalism : Involved with InsIghT, the media body of IIT Bombay
+\end{itemize}
+
+\resheading{\textbf{EXTRACURRICULARS} }\\[\lsep]
+\begin{itemize}
+ \itemsep 0em
+ \item Bagged the 1st prize in Advertisement Making Competition for Freshizza, the Freshman Cultural Event
+ \item Won 2nd prize for making a Pokemon simulation game in Scratch
+ \item Secured 1st prize in school for Quizzing
+ \item Anchored a couple of events in school
+ \item Participated in XLR8 and Line Follower Competitions in 2013
+ \item Nurture a love for reading mystery and fiction
+ \item Beginner at playing guitar
+\end{itemize}
+
+\end{document}
+
+
