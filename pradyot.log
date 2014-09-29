@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.11)  20 AUG 2014 11:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.6.11)  28 SEP 2014 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -496,71 +496,61 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 49.
 
-Overfull \hbox (8.59479pt too wide) in paragraph at lines 61--62
+Overfull \hbox (8.59479pt too wide) in paragraph at lines 60--61
 [][][][][][][] 
  []
 
 
-Overfull \hbox (8.59479pt too wide) in paragraph at lines 69--70
+Overfull \hbox (8.59479pt too wide) in paragraph at lines 68--69
 [][][][][][][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 76.
 
-Overfull \hbox (8.59479pt too wide) in paragraph at lines 100--101
+Overfull \hbox (8.59479pt too wide) in paragraph at lines 118--119
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (8.59479pt too wide) in paragraph at lines 109--124
+Overfull \hbox (8.59479pt too wide) in paragraph at lines 128--129
 [][][][][][][] 
  []
 
 
-Overfull \hbox (17.62003pt too wide) in paragraph at lines 109--124
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--124
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Overfull \hbox (8.59479pt too wide) in paragraph at lines 125--126
+Overfull \hbox (8.59479pt too wide) in paragraph at lines 137--138
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 
-Overfull \hbox (8.59479pt too wide) in paragraph at lines 160--161
+Overfull \hbox (8.59479pt too wide) in paragraph at lines 179--194
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
-
- []
-
-
-Overfull \hbox (8.59479pt too wide) in paragraph at lines 171--172
+Overfull \hbox (8.59479pt too wide) in paragraph at lines 195--196
 [][][][][][][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
@@ -576,16 +566,18 @@ Here is how much of TeX's memory you used:
  5815 multiletter control sequences out of 15000+600000
  14820 words of font info for 32 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,7n,23p,235b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,23p,235b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/p
-alatino/uplri8a.pfb>
-Output written on pradyot.pdf (2 pages, 68668 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
+atino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8
+a.pfb>
+Output written on pradyot.pdf (2 pages, 91127 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 36 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
